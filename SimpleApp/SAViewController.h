@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SAViewController : UIViewController
+@interface SAViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UITextField *smallTextField;
 
 @end

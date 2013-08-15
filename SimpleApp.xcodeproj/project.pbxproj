@@ -18,6 +18,7 @@
 		F02492981773EF140023B6AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F02492971773EF140023B6AF /* Default-568h@2x.png */; };
 		F024929B1773EF140023B6AF /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F024929A1773EF140023B6AF /* SAViewController.m */; };
 		F024929E1773EF140023B6AF /* SAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F024929C1773EF140023B6AF /* SAViewController.xib */; };
+		F02ACB7117BD9DA200AC76F4 /* SAImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02ACB7017BD9DA200AC76F4 /* SAImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		F02492991773EF140023B6AF /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
 		F024929A1773EF140023B6AF /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
 		F024929D1773EF140023B6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SAViewController.xib; sourceTree = "<group>"; };
+		F02ACB6F17BD9DA200AC76F4 /* SAImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAImageViewController.h; sourceTree = "<group>"; };
+		F02ACB7017BD9DA200AC76F4 /* SAImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		F02492871773EF140023B6AF /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
+				F02ACB6F17BD9DA200AC76F4 /* SAImageViewController.h */,
+				F02ACB7017BD9DA200AC76F4 /* SAImageViewController.m */,
 				F02492901773EF140023B6AF /* SAAppDelegate.h */,
 				F02492911773EF140023B6AF /* SAAppDelegate.m */,
 				F02492991773EF140023B6AF /* SAViewController.h */,
@@ -177,6 +182,7 @@
 				F024928E1773EF140023B6AF /* main.m in Sources */,
 				F02492921773EF140023B6AF /* SAAppDelegate.m in Sources */,
 				F024929B1773EF140023B6AF /* SAViewController.m in Sources */,
+				F02ACB7117BD9DA200AC76F4 /* SAImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				F02492A31773EF140023B6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
