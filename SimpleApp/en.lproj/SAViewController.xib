@@ -61,11 +61,11 @@
 							<string key="name">HelveticaNeue-Medium</string>
 							<string key="family">Helvetica Neue</string>
 							<int key="traits">0</int>
-							<double key="pointSize">30</double>
+							<double key="pointSize">22</double>
 						</object>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">HelveticaNeue-Medium</string>
-							<double key="NSSize">30</double>
+							<double key="NSSize">22</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
@@ -135,7 +135,7 @@
 						<reference key="IBUIFontDescription" ref="582908974"/>
 						<reference key="IBUIFont" ref="1057816695"/>
 					</object>
-					<object class="IBUIPageControl" id="37934750">
+					<object class="IBUIPageControl" id="819673611">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">1316</int>
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
@@ -218,7 +218,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">pageControl</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="37934750"/>
+						<reference key="destination" ref="819673611"/>
 					</object>
 					<int key="connectionID">40</int>
 				</object>
@@ -257,7 +257,7 @@
 							<reference ref="465387537"/>
 							<reference ref="76218726"/>
 							<reference ref="582139887"/>
-							<reference ref="37934750"/>
+							<reference ref="819673611"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -279,7 +279,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">39</int>
-						<reference key="object" ref="37934750"/>
+						<reference key="object" ref="819673611"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</array>
