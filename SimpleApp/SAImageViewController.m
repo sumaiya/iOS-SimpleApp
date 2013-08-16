@@ -14,24 +14,6 @@
 
 @interface SAImageViewController()
 
-@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
-
-@property (nonatomic, strong) IBOutlet UILabel *itemName;
-@property (nonatomic, strong) IBOutlet UIButton *backButton;
-@property (nonatomic, strong) IBOutlet UIButton *nextButton;
-
-@property (nonatomic, retain) IBOutlet UIImageView *current;
-@property (nonatomic, retain) IBOutlet UIImageView *previous;
-@property (nonatomic, retain) IBOutlet UIImageView *next;
-
-
-@property (nonatomic, retain) NSDictionary *items;
-@property (nonatomic, retain) NSString *currentItemName;
-@property NSInteger imageCounter;
-
-- (IBAction) showPrevImage:(UIButton *) sender;
-- (IBAction) showNextImage:(UIButton *) sender;
-
 @end
 
 

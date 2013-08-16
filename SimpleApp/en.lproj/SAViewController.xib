@@ -135,7 +135,7 @@
 						<reference key="IBUIFontDescription" ref="582908974"/>
 						<reference key="IBUIFont" ref="1057816695"/>
 					</object>
-					<object class="IBUIPageControl" id="11776676">
+					<object class="IBUIPageControl" id="37934750">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">1316</int>
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
@@ -216,6 +216,14 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">pageControl</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="37934750"/>
+					</object>
+					<int key="connectionID">40</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="76218726"/>
 						<reference key="destination" ref="372490531"/>
@@ -249,7 +257,7 @@
 							<reference ref="465387537"/>
 							<reference ref="76218726"/>
 							<reference ref="582139887"/>
-							<reference ref="11776676"/>
+							<reference ref="37934750"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -271,7 +279,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">39</int>
-						<reference key="object" ref="11776676"/>
+						<reference key="object" ref="37934750"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</array>
@@ -291,7 +299,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">39</int>
+			<int key="maxID">40</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -300,6 +308,7 @@
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="nameLabel">UILabel</string>
+						<string key="pageControl">UIPageControl</string>
 						<string key="smallTextField">UITextField</string>
 						<string key="textField">UITextField</string>
 					</dictionary>
@@ -307,6 +316,10 @@
 						<object class="IBToOneOutletInfo" key="nameLabel">
 							<string key="name">nameLabel</string>
 							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="pageControl">
+							<string key="name">pageControl</string>
+							<string key="candidateClassName">UIPageControl</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="smallTextField">
 							<string key="name">smallTextField</string>
